@@ -46,6 +46,7 @@ namespace Group_project
         [RelayCommand]
         public void Create()
         {
+            App.Current.Windows[0].Close();
             var vm = new UserRegistrationVM();
             var window = new UserRegistration(vm);
             window.Show();

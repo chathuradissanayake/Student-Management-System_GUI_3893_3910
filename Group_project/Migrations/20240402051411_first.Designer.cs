@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Group_project.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230717064333_new")]
-    partial class @new
+    [Migration("20240402051411_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -42,7 +42,7 @@ namespace Group_project.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Admin");
+                    b.ToTable("Admins");
                 });
 
             modelBuilder.Entity("Group_project.Student", b =>
@@ -54,6 +54,9 @@ namespace Group_project.Migrations
                     b.Property<string>("Department")
                         .IsRequired()
                         .HasColumnType("TEXT");
+
+                    b.Property<double>("Gpa")
+                        .HasColumnType("REAL");
 
                     b.Property<string>("Name")
                         .IsRequired()

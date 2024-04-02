@@ -14,7 +14,7 @@ namespace Group_project
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlite("Data Source = Dbase.db");
+            optionsBuilder.UseSqlite("Data Source = Dabase.db");
         }
 
         public DbSet<Admin> Admins { get; set; }

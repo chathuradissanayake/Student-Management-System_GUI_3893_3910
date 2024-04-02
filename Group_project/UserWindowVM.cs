@@ -47,6 +47,7 @@ namespace Group_project
         [RelayCommand]
         public void Create()
         {
+            
             var vm = new StudentRegistrationVM();
             var window = new StudentRegistration(vm);
             window.Show();
