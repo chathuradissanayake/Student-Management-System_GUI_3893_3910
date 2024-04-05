@@ -63,7 +63,7 @@
                 </TextBox.Style>
             </TextBox>
             <TextBlock Text="Password" TextAlignment="Center" FontFamily="Agency FB" Margin="0,0,0,10" FontSize="14" FontWeight="Bold" Foreground="#FF640202"/>
-            <TextBox Text="{Binding Password}" TextAlignment="Center" Width="365" Margin="0,0,0,15" BorderBrush="#FFFF9A00" Foreground="#FF190303">
+            <TextBox Text="{Binding Password}" TextAlignment="Center" Width="365" Margin="0,0,0,15" BorderBrush="#FFFF9A00" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="#FFE0C2C2" Opacity="0.5"/>
                 </TextBox.Background>
