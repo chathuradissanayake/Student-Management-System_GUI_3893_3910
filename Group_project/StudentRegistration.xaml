@@ -17,7 +17,7 @@
             <StackPanel.Background>
                 <ImageBrush ImageSource="/macos-purple-abstract-background-hd-wallpaper-1920x1080-77.jpg"/>
             </StackPanel.Background>
-            <TextBox HorizontalAlignment="Left" Margin="275,15,0,29.8" TextWrapping="Wrap" Text="Add Student Details" VerticalAlignment="Top" Width="262" FontSize="28" FontWeight="Bold" FontFamily="Impact" RenderTransformOrigin="0.495,0.508" Height="37" BorderBrush="{x:Null}">
+            <TextBox HorizontalAlignment="Left" Margin="275,15,0,29.8" TextWrapping="Wrap" Text="Add Student Details" Width="262" FontSize="28" FontWeight="Bold" FontFamily="Impact" RenderTransformOrigin="0.495,0.508" Height="37" BorderBrush="{x:Null}">
                 <TextBox.Foreground>
                     <SolidColorBrush Color="#FF090000" Opacity="0.8"/>
                 </TextBox.Foreground>
@@ -25,7 +25,7 @@
                     <SolidColorBrush Color="#FFD6D6D6" Opacity="0"/>
                 </TextBox.Background>
             </TextBox>
-            <TextBlock Text="Name" TextAlignment="Center" Margin="0,-15,0,10" FontFamily="Segoe UI Black" Foreground="#FF030C09" FontWeight="Bold"/>
+            <TextBlock Text="Name" TextAlignment="Center" Margin="0,-15,0,10" FontFamily="Agency FB" FontWeight="Bold" Foreground="#FF520303" RenderTransformOrigin="0.5,0.43" Height="14" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox Text="{Binding Name}" TextAlignment="Center"  Width="412" Margin="0,0,0,15" BorderBrush="#FFBD2959" Foreground="#FFE9D5D5" >
                 <TextBox.Background>
                     <SolidColorBrush Color="Black" Opacity="0.3"/>
@@ -45,7 +45,7 @@
                 </TextBox.Style>
             </TextBox>
 
-            <TextBlock Text="Department" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+            <TextBlock Text="Department" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Agency FB" FontWeight="Bold" Foreground="#FF520303" RenderTransformOrigin="0.498,-0.322" Height="16" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox Text="{Binding Department}" TextAlignment="Center" Width="410" Margin="0,0,0,15" BorderBrush="#FF701223" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="Black" Opacity="0.3"/>
@@ -64,7 +64,7 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <TextBlock Text="Analog Electronics" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+            <TextBlock Text="Analog Electronics" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Agency FB" FontWeight="Bold" Foreground="#FF520303" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox Text="{Binding Marks1}" TextAlignment="Center" Margin="0,0,0,15" Width="407" BorderBrush="#FF720E2B" TextChanged="TextBox_TextChanged" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="Black" Opacity="0.3"/>
@@ -83,7 +83,7 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <TextBlock Text="GUI Programing" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black"/>
+            <TextBlock Text="GUI Programing" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Agency FB" FontWeight="Bold" Foreground="#FF520303" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox Text="{Binding Marks2}" TextAlignment="Center" Margin="0,0,0,15" Width="406" BorderBrush="#FF620B21" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="Black" Opacity="0.3"/>
@@ -102,7 +102,7 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <TextBlock Text="Data Structures" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black" FontWeight="Bold"/>
+            <TextBlock Text="Data Structures" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Agency FB" FontWeight="Bold" Foreground="#FF520303" HorizontalAlignment="Center" VerticalAlignment="Center"/>
             <TextBox Text="{Binding Marks3}" TextAlignment="Center" Margin="0,0,0,40" Width="401" BorderBrush="#FF58081F" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="#FF0B0101" Opacity="0.3"/>
@@ -121,7 +121,7 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <Button Content="Save" Height="22" Width="116" 
+            <Button Content="Save" Height="30" Width="116" 
             Command="{Binding SaveStudentCommand}" BorderThickness="1.5" BorderBrush="#FFE4F014" Foreground="White" FontSize="16" FontWeight="Bold" FontFamily="Agency FB" Padding="100,10,200,1">
                 <Button.Resources>
                     <Style TargetType="{x:Type Button}">
@@ -147,7 +147,7 @@
                     </Style>
                 </Button.Resources>
                 <Button.Background>
-                    <SolidColorBrush Color="#FF1B1056" Opacity="0.8"/>
+                    <SolidColorBrush Color="#FFFA00FF" Opacity="0.8"/>
                 </Button.Background>
 
             </Button>
