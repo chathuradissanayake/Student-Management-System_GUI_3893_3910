@@ -24,5 +24,10 @@ namespace Group_project
             InitializeComponent();
             DataContext = vm;
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
