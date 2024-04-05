@@ -26,20 +26,20 @@
                 </TextBox.Background>
             </TextBox>
 
-            <TextBlock Foreground="#FFE9EEEC" Margin="30 0 0 0" Text="  Student ID                       Student Name                       GPA" Width="736" Background="Black"/>
+            <TextBlock Foreground="#FFE9EEEC" Margin="30 0 0 0" Text="  Student ID                       Student Name                               GPA" Width="736" Background="Black"/>
 
             <ListView x:Name="Listview"  Margin="30 20 20 20" Background="Transparent"  ItemsSource="{Binding Students ,UpdateSourceTrigger=PropertyChanged}"
                      SelectedItem="{Binding SelectedStudent,UpdateSourceTrigger=PropertyChanged}" >
                 <ListView.ItemTemplate >
                     <DataTemplate>
                         <Border Background="Transparent" BorderBrush="Black" BorderThickness="1"
-                                Padding="0.1" CornerRadius="5" Width="850" Height="90"  >
-                            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left"  >
+                                Padding="0.1" CornerRadius="5" Width="720" Height="50"  >
+                            <StackPanel  Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center"  >
 
 
-                                <TextBlock Foreground="Black" Margin="45 0 0 0" Text="{Binding Id,UpdateSourceTrigger=PropertyChanged}" FontWeight="Bold"   />
-                                <TextBlock Foreground="#FF0E0606" Margin="110 0 0 0" Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}" Background="{x:Null}" FontWeight="Bold"   />
-                                <TextBlock Foreground="#FF120707" Margin="122 0 0 0" Text="{Binding Gpa,UpdateSourceTrigger=PropertyChanged}" FontWeight="Bold"   />
+                                <TextBlock Foreground="White" Margin="45 0 0 0" Text="{Binding Id,UpdateSourceTrigger=PropertyChanged}" FontSize="15" FontFamily="Gadugi"  />
+                                <TextBlock Foreground="White" Margin="110 0 0 0" Text="{Binding Name,UpdateSourceTrigger=PropertyChanged}"  FontSize="15" FontFamily="Gadugi"  />
+                                <TextBlock Foreground="White" Margin="122 0 0 0" Text="{Binding Gpa,UpdateSourceTrigger=PropertyChanged}"  FontSize="15" FontFamily="Gadugi"  />
 
 
 
