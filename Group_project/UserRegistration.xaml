@@ -24,8 +24,8 @@
                     <SolidColorBrush Color="#FFD6D6D6" Opacity="0"/>
                 </TextBox.Background>
             </TextBox>
-            <TextBlock Text="Name" TextAlignment="Center" FontFamily="Segoe UI Black" FontWeight="Bold" Margin="0,0,0,10"/>
-            <TextBox Text="{Binding Name}" TextAlignment="Center" Width="368" Margin="0,0,0,15" BorderBrush="#FF2F116A" MinWidth="10" Foreground="#FF0B0101">
+            <TextBlock Text="Name" TextAlignment="Center" FontFamily="Agency FB" FontWeight="Bold" Margin="0,0,0,10" FontSize="14" Foreground="#FF640202"/>
+            <TextBox Text="{Binding Name}" TextAlignment="Center" Width="368" Margin="0,0,0,15" BorderBrush="#FFFF9A00" MinWidth="10" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="#FFECEDE0" Opacity="0.5"/>
                 </TextBox.Background>
@@ -43,8 +43,8 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <TextBlock Text="UserName" TextAlignment="Center" FontFamily="Segoe UI Black" FontWeight="Bold" Margin="0,0,0,10"/>
-            <TextBox Text="{Binding UserName}" TextAlignment="Center" Width="367" Margin="0,0,0,15" BorderBrush="#FF1A1159" Foreground="#FF170303">
+            <TextBlock Text="UserName" TextAlignment="Center" FontFamily="Agency FB" FontWeight="Bold" Margin="0,0,0,10" FontSize="14" Foreground="#FF640202"/>
+            <TextBox Text="{Binding UserName}" TextAlignment="Center" Width="367" Margin="0,0,0,15" BorderBrush="#FFFF9A00" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="#FFE6D0D0" Opacity="0.5"/>
                 </TextBox.Background>
@@ -62,8 +62,8 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <TextBlock Text="Password" TextAlignment="Center" FontFamily="Segoe UI Black" Margin="0,0,0,10"/>
-            <TextBox Text="{Binding Password}" TextAlignment="Center" Width="365" Margin="0,0,0,15" BorderBrush="#FF22105F" Foreground="#FF190303">
+            <TextBlock Text="Password" TextAlignment="Center" FontFamily="Agency FB" Margin="0,0,0,10" FontSize="14" FontWeight="Bold" Foreground="#FF640202"/>
+            <TextBox Text="{Binding Password}" TextAlignment="Center" Width="365" Margin="0,0,0,15" BorderBrush="#FFFF9A00" Foreground="#FF190303">
                 <TextBox.Background>
                     <SolidColorBrush Color="#FFE0C2C2" Opacity="0.5"/>
                 </TextBox.Background>
@@ -81,8 +81,8 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <TextBlock Text="Is Admin?" TextAlignment="Center" FontWeight="Bold" FontFamily="Segoe UI Black" Margin="0,0,0,10"/>
-            <TextBox Text="{Binding Isadmin}" TextAlignment="Center" Width="362" Margin="0,0,0,50" FontWeight="Bold" BorderBrush="#FF16105C" Foreground="#FF1D0202">
+            <TextBlock Text="Is Admin?" TextAlignment="Center" FontWeight="Bold" FontFamily="Agency FB" Margin="0,0,0,10" FontSize="14" Foreground="#FF640202"/>
+            <TextBox Text="{Binding Isadmin}" TextAlignment="Center" Width="362" Margin="0,0,0,50" FontWeight="Bold" BorderBrush="#FFFF9A00" Foreground="White">
                 <TextBox.Background>
                     <SolidColorBrush Color="#FFDFC6C6" Opacity="0.5"/>
                 </TextBox.Background>
@@ -100,9 +100,9 @@
                     </Style>
                 </TextBox.Style>
             </TextBox>
-            <Button Content="Save" Command="{Binding SaveCommand}" Width="112" BorderBrush="#FFE2CF1C" FontFamily="SimSun" FontWeight="Bold" Foreground="#FFF0EBEB" Height="25">
+            <Button Content="Save" Command="{Binding SaveCommand}" Width="112" BorderBrush="#FFE2CF1C" FontFamily="Bahnschrift" FontWeight="Bold" Foreground="#FFF0EBEB" Height="24">
                 <Button.Background>
-                    <SolidColorBrush Color="#FF2E1192" Opacity="0.6"/>
+                    <SolidColorBrush Color="#FF000298" Opacity="0.6"/>
                 </Button.Background>
                 <Button.Resources>
                     <Style TargetType="Button">
