@@ -26,9 +26,9 @@
                 </TextBox.Background>
             </TextBox>
             <TextBlock Text="Name" TextAlignment="Center" Margin="0,-15,0,10" FontFamily="Segoe UI Black" Foreground="#FF030C09" FontWeight="Bold"/>
-            <TextBox Text="{Binding Name}" TextAlignment="Center" Width="412" Margin="0,0,0,15" BorderBrush="#FFBD2959" Foreground="#FFE9D5D5" >
+            <TextBox Text="{Binding Name}" TextAlignment="Center"  Width="412" Margin="0,0,0,15" BorderBrush="#FFBD2959" Foreground="#FFE9D5D5" >
                 <TextBox.Background>
-                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                    <SolidColorBrush Color="Black" Opacity="0.3"/>
                 </TextBox.Background>
                 <TextBox.Style>
                     <Style TargetType="TextBox">
@@ -48,7 +48,7 @@
             <TextBlock Text="Department" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black" FontWeight="Bold"/>
             <TextBox Text="{Binding Department}" TextAlignment="Center" Width="410" Margin="0,0,0,15" BorderBrush="#FF701223" Foreground="White">
                 <TextBox.Background>
-                    <SolidColorBrush Color="#FF170606" Opacity="0.5"/>
+                    <SolidColorBrush Color="Black" Opacity="0.3"/>
                 </TextBox.Background>
                 <TextBox.Style>
                     <Style TargetType="TextBox">
@@ -67,7 +67,7 @@
             <TextBlock Text="Analog Electronics" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black" FontWeight="Bold"/>
             <TextBox Text="{Binding Marks1}" TextAlignment="Center" Margin="0,0,0,15" Width="407" BorderBrush="#FF720E2B" TextChanged="TextBox_TextChanged" Foreground="White">
                 <TextBox.Background>
-                    <SolidColorBrush Color="Black" Opacity="0.5"/>
+                    <SolidColorBrush Color="Black" Opacity="0.3"/>
                 </TextBox.Background>
                 <TextBox.Style>
                     <Style TargetType="TextBox">
@@ -86,7 +86,7 @@
             <TextBlock Text="GUI Programing" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black"/>
             <TextBox Text="{Binding Marks2}" TextAlignment="Center" Margin="0,0,0,15" Width="406" BorderBrush="#FF620B21" Foreground="White">
                 <TextBox.Background>
-                    <SolidColorBrush Color="#FF170303" Opacity="0.5"/>
+                    <SolidColorBrush Color="Black" Opacity="0.3"/>
                 </TextBox.Background>
                 <TextBox.Style>
                     <Style TargetType="TextBox">
@@ -105,7 +105,7 @@
             <TextBlock Text="Data Structures" TextAlignment="Center" Margin="0,0,0,10" FontFamily="Segoe UI Black" FontWeight="Bold"/>
             <TextBox Text="{Binding Marks3}" TextAlignment="Center" Margin="0,0,0,40" Width="401" BorderBrush="#FF58081F" Foreground="White">
                 <TextBox.Background>
-                    <SolidColorBrush Color="#FF0B0101" Opacity="0.5"/>
+                    <SolidColorBrush Color="#FF0B0101" Opacity="0.3"/>
                 </TextBox.Background>
                 <TextBox.Style>
                     <Style TargetType="TextBox">
